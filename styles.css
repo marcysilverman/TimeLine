@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+
+* {
+  margin: 20px;
+}
+
+header {
+  background-image: url('./daria-shevtsova-57340-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: 90% 60%;
+  background-size: 55%;
+}
+
+h1 {
+  margin-bottom: 250px;
+  font-size: 8em;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: .02em;
+  text-shadow: 1px 2px rgb(223, 218, 218);
+}
+
+h2 {
+  margin: 200px 0 200px 100px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .02em;
+  text-decoration: underline;
+
+}
+
+.time-point {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: 1pt solid black;
+  margin: 30px;
+  width: 50%;
+  font-family: 'Padauk', sans-serif;
+}
+
+.time-point:nth-child(2n) {
+  float: right;
+
+}
+
+.date {
+  font-size: 2em;
+  text-decoration: bold;
+  font-family: 'Monoton', cursive;
+  margin: 10px;
+}
+
+.time-point:hover {
+  width: 60%;
+  transition: 150ms;
+  transition-delay: 100ms;
+  color: white;
+  background: black;
+}
