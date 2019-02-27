@@ -6,12 +6,6 @@
   margin: 20px;
 }
 
-#timeline {
-  border-left: 3px solid black;
-  left: 50%;
-  margin-left: -3px;
-  top: 100%;
-}
 
 header {
   background-image: url('./daria-shevtsova-57340-unsplash.jpg');
